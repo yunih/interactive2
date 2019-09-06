@@ -1,0 +1,45 @@
+/* this defines the helper grid */
+
+/*
+.gridlines {
+  --grid-size:25px;
+  --grid-color:pink;
+}
+
+/* anything else you want to do 👇🏻 */
+
+body {
+    font-family: avenir;
+}
+
+h1 {
+  color:#AA0505;
+  font-size: 31pt;
+  /*line-height: 1.45em;*/
+  font-family: Futura;
+  font-weight: normal;
+}
+
+h2 {
+  margin: 0;
+  padding-top: 20px;
+  color:#FBCA03;
+}
+
+h3 {
+  /*margin: 0;*/
+  color:#AA0505;
+  font-size: 15pt;
+   padding-top: 10px; 
+}
+
+.first {
+  padding: 40px;
+  text-align: right;
+}
+
+
+#pageTwo p {
+  column-count: 2;
+  font-size: 15px;
+}
