@@ -15,11 +15,9 @@ for(let counter = 0; counter < shapes.length; counter = counter + 1){
 	shapes[counter].onmousedown = function(){
 		draggedEl = this
 	}
-	
-
-
-	
 }
+
+
 
 
 document.onmousemove = function(event){

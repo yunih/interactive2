@@ -3,30 +3,89 @@ background-color: #DCD5F1;
 }
 
 .shape_one {
-  height: 300px;
-  width: 300px;
+  height: 350px;
+  width: 350px;
   background-color: #555;
   border-radius: 120px 90px 60px 30px/30px 60px 90px 120px;
   font-color: white;
   position: absolute;
-  
+
 }
 
 .shape_two {
-  height: 150px;
-  width: 150px;
+  height: 350px;
+  width: 350px;
   background-color: white;
   border-radius: 70px 30px 30px 70px/30px 60px 90px 120px;
   position: absolute;
 }
 
 .shape_three {
-  height: 150px;
-  width: 150px;
+  height: 290px;
+  width: 290px;
   background-color: pink;
   border-radius: 60px 40px 60px 40px/70px 30px 30px 70px;
   position: absolute;
 }
+
+.shape_four {
+  height: 260px;
+  width: 260px;
+  background-color: red;
+  border-radius: 20px 60px 40px 80px/80px 50px 30px 50px;
+  position: absolute;
+}
+
+.shape_five {
+  height: 270px;
+  width: 270px;
+  background-color: hotpink;
+  border-radius: 60px 40px 60px 40px/70px 30px 30px 70px;
+  position: absolute;
+}
+
+.shape_six {
+  height: 230px;
+  width: 230px;
+  background-color: blue;
+  border-radius: 20px 60px 40px 80px/80px 50px 30px 50px;
+  position: absolute;
+}
+
+.shape_seven {
+  height: 250px;
+  width: 250px;
+  background-color: skyblue;
+  border-radius: 120px 90px 60px 30px/30px 60px 90px 120px;
+  position: absolute;
+}
+
+.shape_eight {
+  height: 200px;
+  width: 200px;
+  background-color: darkgrey;
+  border-radius: 60px 40px 60px 40px/70px 30px 30px 70px;
+  position: absolute;
+}
+
+.shape_nine {
+  height: 190px;
+  width: 190px;
+  background-color: violet;
+  border-radius: 70px 30px 30px 70px/30px 60px 90px 120px;
+  position: absolute;
+}
+
+.shape_ten {
+  height: 200px;
+  width: 200px;
+  background-color: purple;
+  border-radius: 60px 40px 60px 40px/70px 30px 30px 70px;
+  position: absolute;
+}
+
+
+
 
 .rectangle_big {
   height: 210px;
