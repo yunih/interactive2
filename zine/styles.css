@@ -3,19 +3,41 @@ background-color: #DCD5F1;
 }
 
 .shape_one {
-	height: 150px;
-  width: 150px;
+  height: 300px;
+  width: 300px;
   background-color: #555;
   border-radius: 120px 90px 60px 30px/30px 60px 90px 120px;
   font-color: white;
   position: absolute;
+  
 }
 
 .shape_two {
-	width: 180px;
-  height: 180px;
-	clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
-	border-radius: 90px 90px 40px 10px/60px 90px 80px 100px;
-	background-color: white;
+  height: 150px;
+  width: 150px;
+  background-color: white;
+  border-radius: 70px 30px 30px 70px/30px 60px 90px 120px;
+  position: absolute;
 }
 
+.shape_three {
+  height: 150px;
+  width: 150px;
+  background-color: pink;
+  border-radius: 60px 40px 60px 40px/70px 30px 30px 70px;
+  position: absolute;
+}
+
+.rectangle_big {
+  height: 210px;
+  width: 120px;
+  background-color: black;
+  position: absolute;
+}
+
+.rectangle_small {
+  height: 190px;
+  width: 110px;
+  background-color: lightgrey;
+  position: absolute;
+}
