@@ -1,4 +1,29 @@
 body {
-	color: white;
-	background-color: black;
+	background-color: #DCD5F1;
+}
+
+.phonebig{
+  height: 660px;
+  width: 420px;
+  background-color: black;
+  border-radius: 10px;
+  transform: rotate(-15deg);
+  position: absolute;
+  left: 50vw;
+  margin-left: -200px;
+  top: 25vh;
+  margin-top: -100px;
+}
+
+.phonesmall {
+  height: 600px;
+  width: 390px;
+  background-color: lightgrey;
+  border-radius: 10px;
+  transform: rotate(-15deg);
+  position: absolute;
+  left: 50vw;
+  margin-left: -184px;
+  top: 25vh;
+  margin-top: -75px;
 }
