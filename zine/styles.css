@@ -47,7 +47,7 @@ font-size: 100px;
 .shape_two {
   height: 350px;
   width: 350px;
-  background-color: #170908;
+  background-color: #391813;
   border-radius: 70px 30px 30px 70px/30px 60px 90px 120px;
   position: absolute;
 }
@@ -55,7 +55,7 @@ font-size: 100px;
 .shape_three {
   height: 290px;
   width: 290px;
-  background-color: #131106;
+  background-color: #3D2114;
   border-radius: 60px 40px 60px 140px/70px 30px 30px 70px;
   position: absolute;
 }
@@ -63,7 +63,7 @@ font-size: 100px;
 .shape_four {
   height: 260px;
   width: 260px;
-  background-color: #050F0F;
+  background-color: #3D2F14;
   border-radius: 20px 60px 40px 80px/80px 50px 130px 50px;
   position: absolute;
 }
@@ -71,7 +71,7 @@ font-size: 100px;
 .shape_five {
   height: 270px;
   width: 270px;
-  background-color: #1B090E;
+  background-color: #321119;
   border-radius: 70px 30px 30px 70px/30px 60px 90px 120px;
   position: absolute;
 }
@@ -79,7 +79,7 @@ font-size: 100px;
 .shape_six {
   height: 230px;
   width: 230px;
-  background-color: #17091B;
+  background-color: #2E0F20;
   border-radius: 120px 60px 40px 80px/80px 50px 130px 50px;
   position: absolute;
 }
@@ -87,7 +87,7 @@ font-size: 100px;
 .shape_seven {
   height: 250px;
   width: 250px;
-  background-color: #09091B;
+  background-color: #1B090A;
   border-radius: 120px 90px 60px 30px/30px 60px 90px 120px;
   position: absolute;
 }
@@ -103,7 +103,7 @@ font-size: 100px;
 .shape_nine {
   height: 290px;
   width: 290px;
-  background-color: #040B08;
+  background-color: #180F2E;
   border-radius: 70px 30px 30px 70px/30px 60px 90px 120px;
   position: absolute;
 }
@@ -111,7 +111,7 @@ font-size: 100px;
 .shape_ten {
   height: 300px;
   width: 300px;
-  background-color: purple;
+  background-color: #0F192E;
   border-radius: 60px 40px 60px 40px/70px 30px 30px 70px;
   position: absolute;
 }
@@ -119,7 +119,7 @@ font-size: 100px;
 .shape_eleven {
   height: 320px;
   width: 320px;
-  background-color: white;
+  background-color: #0D2626;
   border-radius: 20px 60px 40px 80px/80px 50px 30px 50px;
   position: absolute;
 }
@@ -127,7 +127,7 @@ font-size: 100px;
 .shape_twelve {
   height: 330px;
   width: 330px;
-  background-color: gray;
+  background-color: #0D261B;
   border-radius: 20px 60px 40px 80px/80px 50px 30px 50px;
   position: absolute;
 }
@@ -135,7 +135,7 @@ font-size: 100px;
 .shape_thirteen {
   height: 300px;
   width: 300px;
-  background-color: gray;
+  background-color: #0E220B;
   border-radius: 48px 67px 42px 58px/38px 54px 21px 13px;
   position: absolute;
 }
@@ -143,7 +143,7 @@ font-size: 100px;
 .shape_fourteen {
   height: 200px;
   width: 200px;
-  background-color: gray;
+  background-color: #23260D;
   border-radius: 30px 60px 90px 120px/70px 30px 30px 50px;
   position: absolute;
 }
@@ -151,15 +151,15 @@ font-size: 100px;
 .shape_fifteen {
   height: 200px;
   width: 200px;
-  background-color: gray;
+  background-color: #221D0B;
   border-radius: 70px 30px 30px 70px/30px 60px 90px 120px;
   position: absolute;
 }
 
 .shape_sixteen {
-  height: 390px;
-  width: 390px;
-  background-color: gray;
+  height: 290px;
+  width: 290px;
+  background-color: #220E0B;
   border-radius: 48px 67px 42px 58px/38px 54px 121px 113px;
   position: absolute;
 }
@@ -167,7 +167,7 @@ font-size: 100px;
 .shape_seventeen {
   height: 200px;
   width: 200px;
-  background-color: gray;
+  background-color: #0D2625;
   border-radius: 120px 160px 140px 180px/180px 150px 130px 150px;
   position: absolute;
 }
@@ -175,7 +175,7 @@ font-size: 100px;
 .shape_eighteen {
   height: 220px;
   width: 220px;
-  background-color: gray;
+  background-color: #221F0B;
   border-radius: 42px 76px 37px 84px/48px 50px 123px 53px;
   position: absolute;
 }
@@ -183,7 +183,7 @@ font-size: 100px;
 .shape_nineteen {
   height: 210px;
   width: 210px;
-  background-color: gray;
+  background-color: #26150D;
   border-radius: 45px 67px 37px 78px/84px 52px 39px 134px;
   position: absolute;
 }
@@ -191,7 +191,7 @@ font-size: 100px;
 .shape_twenty {
   height: 200px;
   width: 200px;
-  background-color: #040B08;
+  background-color: #221F0B;
   border-radius: 124px 69px 46px 88px/70px 75px 21px 43px;
   position: absolute;
 }
