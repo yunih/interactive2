@@ -1,5 +1,7 @@
+
 body {
-	background-color: #DCD5F1;
+	background-color: #E3C1AB;
+	font-family: 'Inconsolata', monospace;
 }
 
 .phonebig{
@@ -40,7 +42,7 @@ p {
 	width: 250px;
 	margin-top: 20px;
 	padding:10px;
-	background:red;
+	/*background:red;*/
 }
 
 
@@ -87,8 +89,12 @@ p {
 }
 
 
-
-
+#plasticBox {
+	position: absolute;
+	top:310px;
+	right:10vw;
+	width:26vw;
+}
 
 
 
