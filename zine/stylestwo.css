@@ -46,6 +46,16 @@ p {
 	/*background:red;*/
 }
 
+.health {
+	color:purple;
+	margin-bottom: 0;
+}
+
+.environment {
+	color: green;
+	margin-top: 0;
+}
+
 
 .right h3 {
 	text-align: right;
@@ -66,34 +76,39 @@ p {
 	height:unset;
 }
 
-
-
-#americiumBox {
+#plasticBox {
 	position: absolute;
 	top:150px;
 	left:10vw;
 	width:23vw;
 }
 
-#leadBox {
+#cooperBox {
 	position: absolute;
 	top:180px;
 	right:15vw;
 	width:30vw;	
 }
 
-#mercuryBox {
+#goldBox {
 	position: absolute;
 	top:310px;
 	left:10vw;
 	width:26vw;
 }
 
-
-#plasticBox {
+#leadBox {
 	position: absolute;
 	top:310px;
 	right:10vw;
+	width:26vw;
+}
+
+
+#zincBox {
+	position: absolute;
+	top:510px;
+	left:10vw;
 	width:26vw;
 }
 
