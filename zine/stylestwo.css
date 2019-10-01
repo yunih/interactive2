@@ -47,7 +47,7 @@ p {
 }
 
 .health {
-	color:purple;
+	color:red;
 	margin-bottom: 0;
 }
 
@@ -71,50 +71,93 @@ p {
 	overflow: hidden;
 	transition: opacity 200ms ease-out;
 }
+
+.hoveringRevealer .revealer {
+	opacity: 0;
+}
+
+
+.revealer:hover {
+	opacity: 1 !important;
+	height:unset;
+	cursor: help;
+}
 .revealer:hover p {
-	opacity: 1;
+	opacity: 1 !important;
 	height:unset;
 }
 
+
+
+
+.button {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 50px;
+  border-radius: 10px;
+  position: absolute;
+  left: 50%;
+  margin-left: -50px;
+  top: 50%;
+  margin-top: -75px;
+  transform: rotate(-15deg);
+  padding: 30px;
+  text-decoration: none;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+
+
 #plasticBox {
 	position: absolute;
-	top:150px;
+	top:200px;
 	left:10vw;
-	width:23vw;
+	width:28vw;
 }
 
 #cooperBox {
 	position: absolute;
-	top:180px;
+	top:280px;
 	right:15vw;
 	width:30vw;	
 }
 
 #goldBox {
 	position: absolute;
-	top:310px;
+	top:380px;
 	left:10vw;
-	width:26vw;
+	width:32vw;
 }
 
 #leadBox {
 	position: absolute;
-	top:310px;
+	top:450px;
 	right:10vw;
-	width:26vw;
+	width:30vw;
 }
 
 
 #zincBox {
 	position: absolute;
-	top:510px;
+	top:560px;
 	left:10vw;
-	width:26vw;
+	width:33vw;
 }
 
+#berylliumBox {
+	position: absolute;
+	top:620px;
+	right:10vw;
+	width:28vw;
+}
 
-
-
+#tantalumBox {
+	position: absolute;
+	top:740px;
+	left:10vw;
+	width:36vw;
+}
 
 
 

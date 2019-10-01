@@ -42,6 +42,13 @@ color: white;
 }
 */
 
+.draggyShape {
+  cursor: grab;
+}
+
+.draggyShape:active {
+  cursor: grabbing;
+}
 
 .shape_one {
   height: 350px;
@@ -50,6 +57,7 @@ color: white;
   border-radius: 120px 90px 60px 30px/30px 60px 90px 120px;
   font-color: white;
   position: absolute;
+  
 }
 
 
@@ -60,6 +68,7 @@ color: white;
   border-radius: 70px 30px 30px 70px/30px 60px 90px 120px;
   position: absolute;
   transform: rotate(10deg);
+  
 }
 
 .shape_three {
@@ -68,6 +77,7 @@ color: white;
   background-color: #3D2114;
   border-radius: 60px 40px 60px 140px/70px 30px 30px 70px;
   position: absolute;
+  
 }
 
 .shape_four {
@@ -76,6 +86,7 @@ color: white;
   background-color: #3D2F14;
   border-radius: 20px 60px 40px 80px/80px 50px 130px 50px;
   position: absolute;
+  
 }
 
 .shape_five {
@@ -84,6 +95,7 @@ color: white;
   background-color: #321119;
   border-radius: 70px 30px 30px 70px/30px 60px 90px 120px;
   position: absolute;
+  
 }
 
 .shape_six {
@@ -92,6 +104,7 @@ color: white;
   background-color: #2E0F20;
   border-radius: 120px 60px 40px 80px/80px 50px 130px 50px;
   position: absolute;
+  
 }
 
 .shape_seven {
@@ -100,6 +113,7 @@ color: white;
   background-color: #1B090A;
   border-radius: 120px 90px 60px 30px/30px 60px 90px 120px;
   position: absolute;
+  
 }
 
 .shape_eight {
@@ -108,6 +122,7 @@ color: white;
   background-color: darkgrey;
   border-radius: 60px 40px 160px 40px/70px 30px 30px 170px;
   position: absolute;
+  
 }
 
 .shape_nine {
@@ -116,6 +131,7 @@ color: white;
   background-color: #180F2E;
   border-radius: 70px 30px 30px 70px/30px 60px 90px 120px;
   position: absolute;
+  
 }
 
 .shape_ten {
@@ -124,6 +140,7 @@ color: white;
   background-color: #0F192E;
   border-radius: 60px 40px 60px 40px/70px 30px 30px 70px;
   position: absolute;
+  
 }
 
 .shape_eleven {
@@ -133,6 +150,7 @@ color: white;
   border-radius: 20px 60px 40px 80px/80px 50px 30px 50px;
   position: absolute;
   transform: rotate(-5deg);
+  
 }
 
 .shape_twelve {
@@ -142,6 +160,7 @@ color: white;
   border-radius: 20px 60px 40px 80px/80px 50px 30px 50px;
   position: absolute;
   transform: rotate(9deg);
+  
 }
 
 .shape_thirteen {
@@ -151,6 +170,7 @@ color: white;
   border-radius: 48px 67px 42px 58px/38px 54px 21px 13px;
   position: absolute;
   transform: rotate(-6deg);
+  
 }
 
 .shape_fourteen {
@@ -160,6 +180,7 @@ color: white;
   border-radius: 30px 60px 90px 120px/70px 30px 30px 50px;
   position: absolute;
   transform: rotate(8deg);
+  
 }
 
 .shape_fifteen {
@@ -169,6 +190,7 @@ color: white;
   border-radius: 70px 30px 30px 70px/30px 60px 90px 120px;
   position: absolute;
   transform: rotate(-10deg);
+  
 }
 
 .shape_sixteen {
@@ -178,6 +200,7 @@ color: white;
   border-radius: 48px 67px 42px 58px/38px 54px 121px 113px;
   position: absolute;
   transform: rotate(-21deg);
+  
 }
 
 .shape_seventeen {
@@ -187,6 +210,7 @@ color: white;
   border-radius: 120px 160px 140px 180px/180px 150px 130px 150px;
   position: absolute;
   transform: rotate(-24deg);
+  
 }
 
 .shape_eighteen {
@@ -196,6 +220,7 @@ color: white;
   border-radius: 42px 76px 37px 84px/48px 50px 123px 53px;
   position: absolute;
   transform: rotate(-10deg);
+  
 }
 
 .shape_nineteen {
@@ -205,6 +230,7 @@ color: white;
   border-radius: 45px 67px 37px 78px/84px 52px 39px 134px;
   position: absolute;
   transform: rotate(7deg);
+  
 }
 
 .shape_twenty {
@@ -214,7 +240,110 @@ color: white;
   border-radius: 124px 69px 46px 88px/70px 75px 21px 43px;
   position: absolute;
   transform: rotate(10deg);
+  
 }
+
+.shape_twentyone {
+  height: 200px;
+  width: 200px;
+  background-color: #180F2E;
+  border-radius: 124px 69px 46px 88px/70px 75px 21px 43px;
+  position: absolute;
+  transform: rotate(10deg);
+  
+}
+
+.shape_twentytwo {
+  height: 200px;
+  width: 200px;
+  background-color: #0D2626;
+  border-radius: 124px 69px 46px 88px/70px 75px 21px 43px;
+  position: absolute;
+  transform: rotate(10deg);
+  
+}
+
+.shape_twentythree {
+  height: 200px;
+  width: 200px;
+  background-color: #23260D;
+  border-radius: 124px 69px 46px 88px/70px 75px 21px 43px;
+  position: absolute;
+  transform: rotate(10deg);
+  
+}
+
+.shape_twentyfour {
+  height: 200px;
+  width: 200px;
+  background-color: #0F192E;
+  border-radius: 124px 69px 46px 88px/70px 75px 21px 43px;
+  position: absolute;
+  transform: rotate(10deg);
+  
+}
+
+.shape_twentyfive {
+  height: 200px;
+  width: 200px;
+  background-color: #26150D;
+  border-radius: 124px 69px 46px 88px/70px 75px 21px 43px;
+  position: absolute;
+  transform: rotate(10deg);
+  
+}
+
+.shape_twentysix {
+  height: 260px;
+  width: 260px;
+  background-color: #221D0B;
+  border-radius: 124px 69px 46px 88px/70px 75px 21px 43px;
+  position: absolute;
+  transform: rotate(10deg);
+  
+}
+
+.shape_twentyseven {
+  height: 270px;
+  width: 270px;
+  background-color: #0E220B;
+  border-radius: 124px 69px 46px 88px/70px 75px 21px 43px;
+  position: absolute;
+  transform: rotate(10deg);
+  
+}
+
+.shape_twentyeight {
+  height: 300px;
+  width: 300px;
+  background-color: #23260D;
+  border-radius: 124px 69px 46px 88px/70px 75px 21px 43px;
+  position: absolute;
+  transform: rotate(10deg);
+  
+}
+
+.shape_twentynine {
+  height: 250px;
+  width: 250px;
+  background-color: #391813;
+  border-radius: 124px 69px 46px 88px/70px 75px 21px 43px;
+  position: absolute;
+  transform: rotate(60deg);
+  
+}
+
+.shape_thirty {
+  height: 200px;
+  width: 200px;
+  background-color: #221F0B;
+  border-radius: 124px 69px 46px 88px/70px 75px 21px 43px;
+  position: absolute;
+  transform: rotate(-10deg);
+  
+}
+
+
 
 
 
