@@ -13,7 +13,7 @@ body {
   position: absolute;
   left: 50vw;
   margin-left: -200px;
-  top: 25vh;
+  top: 30vh;
   margin-top: -100px;
 }
 
@@ -26,10 +26,17 @@ body {
   position: absolute;
   left: 50vw;
   margin-left: -184px;
-  top: 25vh;
+  top: 30vh;
   margin-top: -75px;
 }
 
+h1 {
+	color: white;
+	position: relative;
+	text-align: center;
+	font-size: 30pt;
+/*	padding: 50px;*/
+}
 
 h3 {
 	margin: 0;
@@ -99,7 +106,7 @@ p {
   left: 50%;
   margin-left: -50px;
   top: 50%;
-  margin-top: -75px;
+  margin-top: -25px;
   transform: rotate(-15deg);
   padding: 30px;
   text-decoration: none;
@@ -109,30 +116,63 @@ p {
 
 
 
+
+
+
+.blink {
+	-webkit-animation: blink 0.6s 10s both;
+	        animation: blink 0.6s 10s both;
+}
+
+@-webkit-keyframes blink {
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+@keyframes blink {
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+
+
+
 #plasticBox {
 	position: absolute;
-	top:200px;
+	top:250px;
 	left:10vw;
 	width:28vw;
 }
 
 #cooperBox {
 	position: absolute;
-	top:280px;
+	top:330px;
 	right:15vw;
 	width:30vw;	
 }
 
 #goldBox {
 	position: absolute;
-	top:380px;
+	top:430px;
 	left:10vw;
 	width:32vw;
 }
 
 #leadBox {
 	position: absolute;
-	top:450px;
+	top:500px;
 	right:10vw;
 	width:30vw;
 }
@@ -140,21 +180,21 @@ p {
 
 #zincBox {
 	position: absolute;
-	top:560px;
+	top:610px;
 	left:10vw;
 	width:33vw;
 }
 
 #berylliumBox {
 	position: absolute;
-	top:620px;
+	top:670px;
 	right:10vw;
 	width:28vw;
 }
 
 #tantalumBox {
 	position: absolute;
-	top:740px;
+	top:790px;
 	left:10vw;
 	width:36vw;
 }
