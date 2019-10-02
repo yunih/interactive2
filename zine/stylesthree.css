@@ -15,10 +15,14 @@ h1 {
 
 h2 {
 	color: white;
-	width: /*480pt;*/ /*550pt;*/ 610pt;
+	width: /*480pt;*/ /*550pt;*/ 700pt;
 	padding: 50pt;
 	padding-bottom: 0;
-	position: relative;
+/*	position: relative;*/
+	display: block;
+	position: center;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 
