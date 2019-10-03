@@ -16,8 +16,9 @@ h1 {
 h2 {
 	color: white;
 	width: /*480pt;*/ /*550pt;*/ 700pt;
-	padding: 50pt;
+	padding: 50px;
 	padding-bottom: 0;
+	padding-top: 30px;
 /*	position: relative;*/
 	display: block;
 	position: center;
@@ -25,7 +26,50 @@ h2 {
 	margin-right: auto;
 }
 
+h3{
+	width: 700pt;
+	display: block;
+	position: center;
+	margin-left: auto;
+	margin-right: auto;
+}
 
+
+.waste {
+	font-size: 23pt;
+}
+
+
+p{
+	width: 700pt;
+	position: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0;
+}
+
+
+#source {
+	position: fixed;
+  	bottom: 1em;
+  	right: 1em;
+	color: white;
+	font-size: 13pt;
+}
+
+#source a {
+	color: white;
+	font-size: 13pt;
+	text-decoration: none;
+}
+
+#source ul {
+	list-style-type: none;
+}
+
+.place {
+	font-size: 15pt;
+}
 
 
 /*body, html {
