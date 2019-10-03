@@ -200,6 +200,21 @@ p {
 }
 
 
+#source {
+	position: fixed;
+  	bottom: 1em;
+  	right: 1em;
+	color: white;
+}
 
+#source a {
+	color: white;
+	text-decoration: none;
+	font-size: 13pt;
+}
+
+#source ul {
+	list-style-type: none;
+}
 
 
