@@ -6,7 +6,8 @@
 }
 
 body {
-	font-family: helvetica, arial, sans-serif;
+	font-family: Futura, sans-serif; 
+	font-size: 15pt;
 }
 
 /* container */
@@ -20,7 +21,7 @@ body {
 .item {
 	height: 200px;
 	width: 300px;
-	background: black;
+	background: #6F4BC3;
 	color: white;
 	margin: 10px auto;
 	padding: 10px;
@@ -88,8 +89,8 @@ body {
 }
 
 @-webkit-keyframes example {
-  from {background-color: black;}
-  to {background-color: violet;}
+  from {background-color: #6F4BC3;}
+  to {background-color: /*#9CDEDE*/ #79D2BB;}
 }
 
 
