@@ -1,0 +1,88 @@
+/*body {
+	background-color: black;
+	color: white;
+}*/
+
+.square {
+  width: 150px;
+  height: 150px;
+  background-color: #6F4BC3;
+}
+
+
+@-webkit-keyframes slide-br {
+  0% {
+    -webkit-transform: translateY(0) translateX(0);
+            transform: translateY(0) translateX(0);
+  }
+  100% {
+    -webkit-transform: translateY(300px) translateX(300px);
+            transform: translateY(300px) translateX(300px);
+  }
+}
+@keyframes slide-br {
+  0% {
+    -webkit-transform: translateY(0) translateX(0);
+            transform: translateY(0) translateX(0);
+  }
+  100% {
+    -webkit-transform: translateY(300px) translateX(300px);
+            transform: translateY(300px) translateX(300px);
+  }
+}
+
+
+#one:hover {
+          -webkit-animation-name: example;
+  -webkit-animation-duration: 4s;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+#one:hover {
+    -webkit-animation: slide-br 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+          animation: slide-br 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+
+}
+
+@-webkit-keyframes example {
+  from {background-color: #6F4BC3;}
+  to {background-color: /*#9CDEDE*/ #79D2BB;}
+}
+
+
+
+
+/*.grid-item {
+  background-color: none;
+  border: solid;
+    display: flex;
+  justify-content: center;
+}
+
+
+.grid-container { 
+  display: grid;
+  grid-template-columns: repeat(3, 180px);
+  grid-template-rows: repeat(3, 180px);
+  grid-gap: 2px 2px;
+  justify-content: center;
+}
+
+#one {
+	background-color: blue;
+	width: 180px;
+	height: 180px;
+}
+
+#one.gradient-background {
+	background: linear-gradient(blue, pink);
+	color: transparent;
+}*/
+
+/*
+#larry {
+	background-color: blue;
+	width: 100px;
+	height: 100px;
+}*/
