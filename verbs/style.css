@@ -1,12 +1,16 @@
-/*body {
-	background-color: black;
-	color: white;
-}*/
+body {
+/*	background-color: black;
+	color: white;*/
+  padding: 150pt;
+  padding-left: 300pt;
+}
 
 .square {
   width: 150px;
   height: 150px;
   background-color: #6F4BC3;
+  position: relative;
+  margin: 10pt;
 }
 
 
@@ -24,13 +28,19 @@
   0% {
     -webkit-transform: translateY(0) translateX(0);
             transform: translateY(0) translateX(0);
+            background: red; 
   }
   100% {
     -webkit-transform: translateY(300px) translateX(300px);
             transform: translateY(300px) translateX(300px);
+            background: pink;
   }
 }
 
+
+#one {
+  background-color: #19344D;
+}
 
 #one:hover {
           -webkit-animation-name: example;
@@ -42,7 +52,6 @@
 #one:hover {
     -webkit-animation: slide-br 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
           animation: slide-br 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-
 }
 
 @-webkit-keyframes example {
@@ -51,7 +60,69 @@
 }
 
 
+@-webkit-keyframes slide-right {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(300px);
+            transform: translateX(300px);
+  }
+}
+@keyframes slide-right {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(300px);
+            transform: translateX(300px);
+  }
+}
 
+
+#two:hover {
+-webkit-animation: slide-right 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+          animation: slide-right 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+#two {
+  background-color: #7DCBD4;
+}
+
+
+
+
+@-webkit-keyframes slide-tr {
+  0% {
+    -webkit-transform: translateY(0) translateX(0);
+            transform: translateY(0) translateX(0);
+  }
+  100% {
+    -webkit-transform: translateY(-300px) translateX(300px);
+            transform: translateY(-300px) translateX(300px);
+  }
+}
+@keyframes slide-tr {
+  0% {
+    -webkit-transform: translateY(0) translateX(0);
+            transform: translateY(0) translateX(0);
+  }
+  100% {
+    -webkit-transform: translateY(-300px) translateX(300px);
+            transform: translateY(-300px) translateX(300px);
+  }
+}
+
+#three:hover{
+  -webkit-animation: slide-tr 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+          animation: slide-tr 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+#three {
+  background-color: #DDEAF4;
+}
 
 /*.grid-item {
   background-color: none;
