@@ -1,159 +1,132 @@
 body {
-/*	background-color: black;
-	color: white;*/
-  padding: 150pt;
-  padding-left: 300pt;
+    background-color: black;
+/*  padding: 150pt;*/
+  padding-left: 400pt;
+  padding-top: 100pt;
+  transition: .4s;
+/*  margin-left: auto;
+  margin-right: auto;*/
+  position: center;
 }
 
 .square {
   width: 150px;
   height: 150px;
-  background-color: #6F4BC3;
   position: relative;
   margin: 10pt;
 }
 
 
-@-webkit-keyframes slide-br {
+
+
+
+@keyframes slide-bl {
   0% {
     -webkit-transform: translateY(0) translateX(0);
             transform: translateY(0) translateX(0);
   }
   100% {
-    -webkit-transform: translateY(300px) translateX(300px);
-            transform: translateY(300px) translateX(300px);
+    -webkit-transform: translateY(500px) translateX(-300px);
+            transform: translateY(500px) translateX(-300px);
   }
 }
-@keyframes slide-br {
-  0% {
-    -webkit-transform: translateY(0) translateX(0);
-            transform: translateY(0) translateX(0);
-            background: red; 
-  }
-  100% {
-    -webkit-transform: translateY(300px) translateX(300px);
-            transform: translateY(300px) translateX(300px);
-            background: pink;
-  }
-}
+
+
 
 
 #one {
-  background-color: #19344D;
+  background-color: #01FFC3;
 }
 
-#one:hover {
-          -webkit-animation-name: example;
-  -webkit-animation-duration: 4s;
-  animation-name: example;
-  animation-duration: 4s;
-}
-
-#one:hover {
-    -webkit-animation: slide-br 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-          animation: slide-br 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
-
-@-webkit-keyframes example {
-  from {background-color: #6F4BC3;}
-  to {background-color: /*#9CDEDE*/ #79D2BB;}
+#oneHover:hover div{
+-webkit-animation: slide-bl 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+          animation: slide-bl 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 
-@-webkit-keyframes slide-right {
-  0% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-  100% {
-    -webkit-transform: translateX(300px);
-            transform: translateX(300px);
-  }
-}
+
 @keyframes slide-right {
   0% {
     -webkit-transform: translateX(0);
             transform: translateX(0);
+            background: #01FFFF;
   }
   100% {
-    -webkit-transform: translateX(300px);
-            transform: translateX(300px);
+    -webkit-transform: translateX(400px);
+            transform: translateX(400px);
+            background: #9D72FF;
   }
 }
 
 
-#two:hover {
+#twoHover:hover div{
 -webkit-animation: slide-right 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
           animation: slide-right 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 #two {
-  background-color: #7DCBD4;
+  background-color: #01FFFF;
 }
 
 
 
-
-@-webkit-keyframes slide-tr {
-  0% {
-    -webkit-transform: translateY(0) translateX(0);
-            transform: translateY(0) translateX(0);
-  }
-  100% {
-    -webkit-transform: translateY(-300px) translateX(300px);
-            transform: translateY(-300px) translateX(300px);
-  }
-}
 @keyframes slide-tr {
   0% {
     -webkit-transform: translateY(0) translateX(0);
             transform: translateY(0) translateX(0);
+            background: #FFB3FD;
   }
   100% {
-    -webkit-transform: translateY(-300px) translateX(300px);
-            transform: translateY(-300px) translateX(300px);
+    -webkit-transform: translateY(-400px) translateX(300px);
+            transform: translateY(-400px) translateX(300px);
+            background: #01FFC3;
   }
 }
 
-#three:hover{
+#threeHover:hover div{
   -webkit-animation: slide-tr 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
           animation: slide-tr 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 #three {
-  background-color: #DDEAF4;
-}
-
-/*.grid-item {
-  background-color: none;
-  border: solid;
-    display: flex;
-  justify-content: center;
+  background-color: #FFB3FD;
 }
 
 
-.grid-container { 
-  display: grid;
-  grid-template-columns: repeat(3, 180px);
-  grid-template-rows: repeat(3, 180px);
-  grid-gap: 2px 2px;
-  justify-content: center;
+
+
+@keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+            background: #9D72FF;
+  }
+  100% {
+    -webkit-transform: translateX(-400px);
+            transform: translateX(-400px);
+            background: #01FFFF;
+  }
 }
 
-#one {
-	background-color: blue;
-	width: 180px;
-	height: 180px;
+
+
+#fourHover:hover div{
+-webkit-animation: slide-left 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+          animation: slide-left 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
-#one.gradient-background {
-	background: linear-gradient(blue, pink);
-	color: transparent;
-}*/
+#four {
+  background-color: #9D72FF;
+}
 
-/*
-#larry {
-	background-color: blue;
-	width: 100px;
-	height: 100px;
-}*/
+
+
+
+
+
+
+
+
+
+
+

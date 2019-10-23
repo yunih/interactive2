@@ -1,69 +1,102 @@
-// let larry = document.querySelector('#larry')
-// let larryCount = 0
 
-// larry.addEventListener('click',function(){
-// 	if (larryCount == 0) {
-// 		console.log('zero')
-// 		let randomR = Math.random() * 255
-// 		larry.style.background = 'rgb('+randomR+',255,255)'
-// 		larryCount = larryCount + 1
-// 	}  else if(larryCount == 1){
-// 		console.log('one')
-
-
-// 		larryCount = larryCount + 1
-// 	}   else if (larryCount == 2) {
-// 		console.log('two')
-
-// 		larryCount = 0
-// 	}
-
-
-// })
-
-
-let one = document.querySelector('#one')
+let one = document.querySelector('#oneHover')
+let two = document.querySelector('#twoHover')
+let three = document.querySelector('#threeHover')
+let four = document.querySelector('#fourHover')
+var hue = 100;
 
 let oneCount = 0
-
-// one.addEventListener('click',function(){
-// 	if (oneCount == 0) {
-// 		console.log('zero')
-// 		let randomR = Math.random() * 255
-// 		one.style.background = 'rgb('+randomR+',255,255)'
-// 		oneCount = oneCount + 1
-// 	}  else if(oneCount == 1){
-// 		console.log('one')
+let twoCount = 0
+let threeCount = 0
+let fourCount = 0
 
 
-// 		oneCount = oneCount + 1
-// 	}   else if (oneCount == 2) {
-// 		console.log('two')
+let colorChange = 1
 
-// 		oneCount = 0
-// 	}
 
-// })
 
-let oneTimer
 
+let oneTimber
+
+// colorChange -= 0.01;
 one.addEventListener('mouseenter',function(){
-	document.body.style.background = 'red'
-	// oneTimer = setInterval(function(){
-	// 	document.body.style.background = getComputedStyle(one).backgroundColor
-	// }
-	// ,16)
+	hue = 0;
+
+	// document.body.style.backgroundColor = "HSL("+hue+",50%,50%)";
+
+	oneTimer = setInterval(function(){
+		hue = (hue+5)%360;
+		document.body.style.backgroundColor = 'HSL('+hue+', 35%, 20%)';
+	}
+	,150)
 })
 one.addEventListener('mouseleave',function(){
 	document.body.style.background = 'unset'
-	// clearInterval(oneTimer)
+	clearInterval(oneTimer)
+})
+
+
+let twoTimber
+
+two.addEventListener('mouseenter',function(){
+	hue = 0;
+	// document.body.style.background = '#7DCBD4'
+	twoTimer = setInterval(function(){
+		hue = (hue+5)%360;
+		document.body.style.backgroundColor = 'HSL('+hue+', 50%, 50%)';
+	}
+	,150)
+
+})
+
+two.addEventListener('mouseleave',function(){
+	document.body.style.background = 'unset'
+	clearInterval(twoTimer)
+})
+
+
+
+
+let threeTimber
+
+three.addEventListener('mouseenter',function(){
+	hue = 0;
+	// document.body.style.background = '#7DCBD4'
+	threeTimer = setInterval(function(){
+		hue = (hue+5)%360;
+		document.body.style.backgroundColor = 'HSL('+hue+', 80%, 80%)';
+	}
+	,150)
+
+})
+
+three.addEventListener('mouseleave',function(){
+	document.body.style.background = 'unset'
+	clearInterval(threeTimer)
 })
 
 
 
 
 
+let fourTimber
 
+// colorChange -= 0.01;
+four.addEventListener('mouseenter',function(){
+	hue = 0;
+
+	// document.body.style.backgroundColor = "HSL("+hue+",50%,50%)";
+
+	fourTimer = setInterval(function(){
+		hue = (hue+5)%360;
+		document.body.style.backgroundColor = 'HSL('+hue+', 35%, 20%)';
+	}
+	,150)
+})
+four.addEventListener('mouseleave',function(){
+	document.body.style.background = 'unset'
+	clearInterval(fourTimer)
+})
 
 
 
