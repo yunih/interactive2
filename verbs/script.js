@@ -83,7 +83,7 @@ four.addEventListener('mouseenter',function(){
 	hue = 0;
 	fourTimer = setInterval(function(){
 		hue = (hue+5)%360;
-		document.body.style.backgroundColor = 'HSL('+hue+', 90%, 90%)';
+		document.body.style.backgroundColor = 'HSL('+hue+', 60%, 60%)';
 	}
 	,150)
 })
