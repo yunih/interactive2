@@ -26,12 +26,12 @@ one.addEventListener('mouseenter',function(){
 
 	oneTimer = setInterval(function(){
 		hue = (hue+5)%360;
-		document.body.style.backgroundColor = 'HSL('+hue+', 35%, 20%)';
+		document.body.style.backgroundColor = 'HSL('+hue+', 50%, 50%)';
 	}
 	,150)
 })
 one.addEventListener('mouseleave',function(){
-	document.body.style.background = 'unset'
+	document.body.style.background = 'black'
 	clearInterval(oneTimer)
 })
 
@@ -40,17 +40,16 @@ let twoTimber
 
 two.addEventListener('mouseenter',function(){
 	hue = 0;
-	// document.body.style.background = '#7DCBD4'
 	twoTimer = setInterval(function(){
 		hue = (hue+5)%360;
-		document.body.style.backgroundColor = 'HSL('+hue+', 50%, 50%)';
+		document.body.style.backgroundColor = 'HSL('+hue+', 70%, 70%)';
 	}
 	,150)
 
 })
 
 two.addEventListener('mouseleave',function(){
-	document.body.style.background = 'unset'
+	document.body.style.background = 'black'
 	clearInterval(twoTimer)
 })
 
@@ -61,7 +60,6 @@ let threeTimber
 
 three.addEventListener('mouseenter',function(){
 	hue = 0;
-	// document.body.style.background = '#7DCBD4'
 	threeTimer = setInterval(function(){
 		hue = (hue+5)%360;
 		document.body.style.backgroundColor = 'HSL('+hue+', 80%, 80%)';
@@ -71,7 +69,7 @@ three.addEventListener('mouseenter',function(){
 })
 
 three.addEventListener('mouseleave',function(){
-	document.body.style.background = 'unset'
+	document.body.style.background = 'black'
 	clearInterval(threeTimer)
 })
 
@@ -81,20 +79,16 @@ three.addEventListener('mouseleave',function(){
 
 let fourTimber
 
-// colorChange -= 0.01;
 four.addEventListener('mouseenter',function(){
 	hue = 0;
-
-	// document.body.style.backgroundColor = "HSL("+hue+",50%,50%)";
-
 	fourTimer = setInterval(function(){
 		hue = (hue+5)%360;
-		document.body.style.backgroundColor = 'HSL('+hue+', 35%, 20%)';
+		document.body.style.backgroundColor = 'HSL('+hue+', 90%, 90%)';
 	}
 	,150)
 })
 four.addEventListener('mouseleave',function(){
-	document.body.style.background = 'unset'
+	document.body.style.background = 'black'
 	clearInterval(fourTimer)
 })
 

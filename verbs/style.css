@@ -1,19 +1,23 @@
 body {
     background-color: black;
-/*  padding: 150pt;*/
-  padding-left: 400pt;
   padding-top: 100pt;
-  transition: .4s;
+  transition: .3s;
 /*  margin-left: auto;
   margin-right: auto;*/
   position: center;
 }
 
+
+
+
 .square {
   width: 150px;
   height: 150px;
+  border-radius: 50%;
   position: relative;
   margin: 10pt;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -28,6 +32,7 @@ body {
   100% {
     -webkit-transform: translateY(500px) translateX(-300px);
             transform: translateY(500px) translateX(-300px);
+            background: #FFB3FD;
   }
 }
 
