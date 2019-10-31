@@ -5,7 +5,8 @@ body {
 	background: black;	
 	color: black;
   font-family: 'VT323', monospace;
-  font-size: 30pt;
+  font-size: 35pt;
+  margin-top: 20vh;
   margin-left: 20vw;
   margin-right: 20vw;
 }
