@@ -1,0 +1,155 @@
+body {
+  font-size:2vw;
+  font-family:Menlo, monospace;
+  background: black;
+}
+.copy {
+  max-width: 500px;
+  margin:0 auto;
+}
+
+.square {
+  position:fixed;
+  top:calc(50vh - 25vmin);
+  left:calc(50vw - 25vmin);
+  width:50vmin;
+  height:50vmin;
+  background:#ABE2E3;
+  transition:background 200ms ease;
+  transition:border-radius 200ms ease;
+  transform: 200ms ease;
+  z-index:-1;
+}
+
+/*.big, .small {
+  display:none;
+}*/
+
+/*@media only screen and (max-width: 600px) {
+  body {
+    margin-top:25vh;
+  }
+  .small {
+    display:block;
+  }
+
+  .square {
+    border-radius: 40%;
+  }
+  
+}
+
+@media only screen and (min-width: 700px) {
+  .square {
+    border-radius: 50%;
+  }
+}
+
+
+
+@media only screen and  (min-width: 601px) {
+  .big {
+    display:block;
+  }
+}*/
+
+
+
+@media (max-width: 1024px) {
+  .square {
+    border-radius: 0%;
+    background: #E4AFB8;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1023px) {
+  .square {
+    border-radius: 10%;
+    background: #E4AFE4;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 899px) {
+  .square {
+    border-radius: 20%;
+    background: #ABB0E3;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 799px) {
+  .square {
+    border-radius: 30%;
+    background: #ABE3C8;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 699px) {
+  .square {
+    border-radius: 40%;
+    background: #E3DBAB;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 599px) {
+  .square {
+    border-radius: 50%;
+    background: #E3ADAB;
+  }
+}
+
+
+
+
+
+@media (max-height: 700px) {
+  .square {
+    transform: rotate(0deg);
+    background: #E4AFB8;
+  }
+}
+
+@media (min-height: 600px) and (max-height: 699px){
+  .square {
+    transform: rotate(10deg);
+    background: #E4AFB8;
+  }
+}
+
+@media (min-height: 500px) and (max-height: 599px){
+  .square {
+    transform: rotate(20deg);
+    background: #ABB0E3;
+  }
+}
+
+@media (min-height: 400px) and (max-height: 499px){
+  .square {
+    transform: rotate(30deg);
+    background: #ABE3C8;
+  }
+}
+
+@media (min-height: 300px) and (max-height: 399px){
+  .square {
+    transform: rotate(40deg);
+    background: #E3DBAB;
+  }
+}
+
+@media (min-height: 200px) and (max-height: 299px){
+  .square {
+    transform: rotate(50deg);
+    background: #E3ADAB;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
