@@ -6,8 +6,12 @@ font-family: 'Satisfy', cursive;
 
 img {
 	position: absolute;
+	margin-top: 23vh;
+	margin-left: 12vw;
+	transform: scale(1.4);
 }
 
 a {
 	position: absolute;
 }
+

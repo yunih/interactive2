@@ -4,11 +4,7 @@ background-color: #fffaf1;
 font-family: 'Satisfy', cursive;
 }
 
-img {
-	display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 
 a {
 	position: absolute;
@@ -32,14 +28,19 @@ a {
 	position: absolute;
 	top:0;
 	left:0;
-	transition: left 100ms ease;
+	transition: transform 100ms ease;
+	transform-origin: 118px 0;
+	transform: scale(1,1);
 }
 
 #right_curtain_half {
 	position: absolute;
 	top:0;
 	right:0;
-	transition: right 100ms ease;
+	/*transition: right 100ms ease, width 100ms ease;*/
+	transition: transform 100ms ease;
+	transform-origin: 255px 0;
+	transform: scale(1,1);
 }
 
 #canvas_half {
@@ -49,11 +50,17 @@ a {
 }
 
 #left_curtain_half.slide {
-	width: 10px;
+	/*width: 10px;*/
+	/*height: 902px;*/
+    /*left: 125px;*/
+    transform: scale(0.05,1);
 }
 
 #right_curtain_half.slide {
-	width: 10px;
+	/*width: 10px;
+	height: 902px;*/
+    /*right: 145px;*/
+    transform: scale(0.05,1);
 }
 
 /*#face {

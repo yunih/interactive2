@@ -4,12 +4,89 @@ background-color: #fffaf1;
 font-family: 'Satisfy', cursive;
 }
 
-img {
-	display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 
 a {
 	position: absolute;
+}
+
+
+.frame {
+	width:668px;
+	position: relative;
+ 	margin-right: auto;
+	margin-left: auto;
+}
+
+#noheadbg {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/*#bighead {
+	position: absolute;
+	top:0;
+	left:0;
+}*/
+
+#smallhead {
+	position: absolute;
+	top:0;
+	left:0;
+	transition: 100ms ease;
+}
+
+.shake-vertical {
+	        animation: shake-vertical 7s cubic-bezier(0.455, 0.030, 0.515, 0.955) both infinite;
+}
+
+
+
+
+
+#faceonly {
+	position: absolute;
+	top: 216px;
+	left: 303px;
+}
+
+
+#orangeHead.slide #smallhead {
+	transform: scale(3.5);
+	top: 413px;
+/*	position: relative;
+	top: 0;
+	left: 0;
+	animation: none;*/
+}
+
+
+#orangeHead.slide {
+	animation: none;
+}
+
+
+@keyframes shake-vertical {
+  0%,
+  100% {
+            transform: translateY(0);
+  }
+  10%,
+  30%,
+  50%,
+  70% {
+            transform: translateY(-8px);
+  }
+  20%,
+  40%,
+  60% {
+            transform: translateY(8px);
+  }
+  80% {
+            transform: translateY(6.4px);
+  }
+  90% {
+            transform: translateY(-6.4px);
+  }
 }

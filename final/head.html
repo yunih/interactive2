@@ -15,13 +15,35 @@
         head page
     </div>
 
-   <img src="image/noheadbg.png">
-   <img src="image/bighead.png">
-   <img src="image/smallhead.png">
-   <img src="image/faceonly.png">
 
+<div class="frame">
+   <img src="image/noheadbg.png" id="noheadbg">
+   <!-- <img src="image/bighead.png" id="bighead"> -->
+   <div id="orangeHead" class="shake-vertical">
+	   <img src="image/smallhead.png" id="smallhead">
+	
+	   <img src="image/small_faceonly.png" id="faceonly">
+   </div>
+</div>
 
 <a href="home.html">go home</a>
+
+
+<script>
+
+
+orangeHead.addEventListener('click', function(){
+	orangeHead.classList.toggle('slide')
+
+	// image.style.scale = '50%'
+
+// 	smallhead = document.getElementById('smallhead');
+// smallhead.height = smallhead.height * 3.5;
+
+})
+
+</script>
+
 
 </body>
 </html>
