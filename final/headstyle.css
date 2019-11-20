@@ -1,0 +1,15 @@
+body {
+background-color: #fffaf1;
+/*font-size: 100px;*/
+font-family: 'Satisfy', cursive;
+}
+
+img {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+	position: absolute;
+}

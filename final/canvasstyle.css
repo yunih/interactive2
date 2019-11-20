@@ -1,0 +1,68 @@
+body {
+background-color: #fffaf1;
+/*font-size: 100px;*/
+font-family: 'Satisfy', cursive;
+}
+
+img {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+	position: absolute;
+}
+
+
+.frame {
+	margin-left: auto;
+	width:700px;
+	position: relative;
+ 	margin-right: auto;
+}
+
+#background {
+	position: absolute;
+	top:0;
+	left:0;
+}
+
+#left_curtain_half {
+	position: absolute;
+	top:0;
+	left:0;
+	transition: left 100ms ease;
+}
+
+#right_curtain_half {
+	position: absolute;
+	top:0;
+	right:0;
+	transition: right 100ms ease;
+}
+
+#canvas_half {
+	position: absolute;
+	bottom: -902px;
+	left: 0;
+}
+
+#left_curtain_half.slide {
+	width: 10px;
+}
+
+#right_curtain_half.slide {
+	width: 10px;
+}
+
+/*#face {
+	position: absolute;
+	top:0;
+	left:700px;
+	z-index:1000;
+	transition: left 1000ms ease;
+}
+#face.slide {
+	left:0;
+}*/
