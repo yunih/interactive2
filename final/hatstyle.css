@@ -1,5 +1,5 @@
 body {
-background-color: #fffaf1;
+background-color: #EFDECD;
 /*font-size: 100px;*/
 font-family: 'Satisfy', cursive;
 }
@@ -8,6 +8,8 @@ img {
 /*	display:flex;
 */  
 }
+
+
 
 
 .shake-horizontal {
@@ -47,6 +49,7 @@ a {
 
 .frame {
 	margin-left: auto;
+	height: 796px;
 	width:650px;
 	position: relative;
  	margin-right: auto;
@@ -67,5 +70,19 @@ a {
 	left:0;
 }
 
+.textbox {
+/*	margin-left: 700px;
+*/	columns: 490px 3;
+	max-width: 500px;
+  margin:0 auto;
+  margin-left: auto;
+  position: relative;
+}
 
+p {
+	font-family: 'Open Sans', sans-serif;
+}
 
+#golconda {
+	right: 0;
+}

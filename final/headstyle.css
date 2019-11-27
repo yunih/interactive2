@@ -1,5 +1,5 @@
 body {
-background-color: #fffaf1;
+background-color: #EFDECD;
 /*font-size: 100px;*/
 font-family: 'Satisfy', cursive;
 }
@@ -9,6 +9,21 @@ font-family: 'Satisfy', cursive;
 a {
 	position: absolute;
 }
+
+
+.textbox {
+/*	margin-left: 700px;
+*/	columns: 490px 3;
+	max-width: 500px;
+  margin:0 auto;
+  margin-left: auto;
+  position: relative;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+
 
 
 .frame {
@@ -52,15 +67,26 @@ a {
 }
 
 
-#orangeHead.slide #smallhead {
+#bighead {
+	transform: scale(0.3) translateY(-370px);
+	top: 413px;
+}
+
+#orangeHead.slide #bighead {
+	transform: scale(1);
+/*	top: 413px;*/
+}
+
+
+
+/*#orangeHead.slide #smallhead {
 	transform: scale(3.5);
 	top: 413px;
 /*	position: relative;
 	top: 0;
 	left: 0;
-	animation: none;*/
-}
-
+	animation: none;
+}*/
 
 #orangeHead.slide {
 	animation: none;
@@ -90,3 +116,14 @@ a {
             transform: translateY(-6.4px);
   }
 }
+
+/*#toc {
+	position: fixed;
+  bottom: 1em;
+  right: 1em;
+}*/
+
+
+
+
+

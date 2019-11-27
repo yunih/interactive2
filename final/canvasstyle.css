@@ -1,5 +1,5 @@
 body {
-background-color: #fffaf1;
+background-color: #EFDECD;
 /*font-size: 100px;*/
 font-family: 'Satisfy', cursive;
 }
@@ -14,6 +14,7 @@ a {
 .frame {
 	margin-left: auto;
 	width:700px;
+	height: 902px;
 	position: relative;
  	margin-right: auto;
 }
@@ -45,7 +46,7 @@ a {
 
 #canvas_half {
 	position: absolute;
-	bottom: -902px;
+	bottom: 0px;
 	left: 0;
 }
 
@@ -63,13 +64,18 @@ a {
     transform: scale(0.05,1);
 }
 
-/*#face {
-	position: absolute;
-	top:0;
-	left:700px;
-	z-index:1000;
-	transition: left 1000ms ease;
+
+
+.textbox {
+/*	margin-left: 700px;
+*/	columns: 490px 3;
+	max-width: 500px;
+  margin:0 auto;
+  margin-left: auto;
+  position: relative;
 }
-#face.slide {
-	left:0;
-}*/
+
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+

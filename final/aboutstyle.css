@@ -4,14 +4,41 @@ background-color: #fffaf1;
 font-family: 'Satisfy', cursive;
 }
 
-img {
+#rene {
 	position: absolute;
-	margin-top: 23vh;
-	margin-left: 12vw;
+	top: 23vh;
+	left: 12vw;
 	transform: scale(1.4);
+	margin-top: 200px;
 }
 
 a {
 	position: absolute;
 }
 
+#pipe {
+		margin-top: 0;
+		
+}
+
+.textbox {
+	/*margin-left: 700px;
+	columns: 490px;*/
+	max-width: 500px;
+  margin:0 auto;
+  margin-left: 700px;
+  margin-top: 250px;
+}
+
+
+
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+	body {
+		background:pink;
+	}
+
+}
