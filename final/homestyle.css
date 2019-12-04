@@ -26,8 +26,16 @@ color: white;
   width: 25%;*/
   display: flex; 
 align-items: center;
-text-align: center;
+margin-left: 8vw;
+/*text-align: center;*/
 }
+
+/*.cloumn #man {
+	display: block;
+	padding-left: 10pt;
+	align-items: center;
+text-align: center;
+}*/
 
 .fourCol {
 	display: grid;

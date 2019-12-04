@@ -1,6 +1,5 @@
 body {
 background-color: #EFDECD;
-/*font-size: 100px;*/
 font-family: 'Satisfy', cursive;
 }
 
@@ -13,7 +12,7 @@ img {
 
 
 .shake-horizontal {
-	        animation: shake-horizontal 1s cubic-bezier(0.455, 0.030, 0.515, 0.955) 2.5s both;
+	        animation: shake-horizontal 9s cubic-bezier(0.455, 0.030, 0.515, 0.955) both infinite;
 }
 
 
@@ -71,18 +70,27 @@ a {
 }
 
 .textbox {
-/*	margin-left: 700px;
-*/	columns: 490px 3;
-	max-width: 500px;
+	font-size: 14pt;
+	columns: 2;
+	max-width: 600px;
   margin:0 auto;
   margin-left: auto;
   position: relative;
+}
+
+
+h1 {
+	text-align: center;
+	display: block;
+	/*margin-left: auto;
+	margin-right: auto;*/
 }
 
 p {
 	font-family: 'Open Sans', sans-serif;
 }
 
-#golconda {
-	right: 0;
+/*#golconda {
+	position: fixed;
+	*/
 }

@@ -9,17 +9,19 @@ font-family: 'Satisfy', cursive;
 	top: 23vh;
 	left: 12vw;
 	transform: scale(1.4);
-	margin-top: 200px;
+	/*margin-top: 200px;*/
 }
 
 a {
-	position: absolute;
+	width: 0.5;
+
+	position: relative;
 }
 
-#pipe {
+/*#pipe {
 		margin-top: 0;
-		
-}
+
+}*/
 
 .textbox {
 	/*margin-left: 700px;
@@ -30,6 +32,11 @@ a {
   margin-top: 250px;
 }
 
+h1 {
+	text-align: center;
+	display: block;
+	max-width: 1000px;
+}
 
 
 p {

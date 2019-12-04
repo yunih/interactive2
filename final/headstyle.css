@@ -13,12 +13,18 @@ a {
 
 .textbox {
 /*	margin-left: 700px;
-*/	columns: 490px 3;
-	max-width: 500px;
+*/	columns: 2;
+	max-width: 600px;
   margin:0 auto;
   margin-left: auto;
   position: relative;
 }
+
+h1 {
+	text-align: center;
+	display: block;
+}
+
 
 p {
 	font-family: 'Open Sans', sans-serif;
