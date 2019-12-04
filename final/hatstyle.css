@@ -70,7 +70,7 @@ a {
 }
 
 .textbox {
-	font-size: 14pt;
+	font-size: 12pt;
 	columns: 2;
 	max-width: 600px;
   margin:0 auto;
@@ -93,4 +93,12 @@ p {
 /*#golconda {
 	position: fixed;
 	*/
+}
+
+
+@media only screen and (max-width: 600px) {
+	body {
+		background:pink;
+	}
+
 }

@@ -4,6 +4,7 @@ background-color: #fffaf1;
 font-family: 'Satisfy', cursive;
 }
 
+
 #rene {
 	position: absolute;
 	top: 23vh;
@@ -12,11 +13,11 @@ font-family: 'Satisfy', cursive;
 	/*margin-top: 200px;*/
 }
 
-a {
+/*a {
 	width: 0.5;
 
 	position: relative;
-}
+}*/
 
 /*#pipe {
 		margin-top: 0;
@@ -26,10 +27,11 @@ a {
 .textbox {
 	/*margin-left: 700px;
 	columns: 490px;*/
-	max-width: 500px;
-  margin:0 auto;
-  margin-left: 700px;
-  margin-top: 250px;
+	max-width: 460px;
+	width:40vw;
+  right: 50px;
+  top: 250px;
+  position: absolute;
 }
 
 h1 {
@@ -47,5 +49,14 @@ p {
 	body {
 		background:pink;
 	}
+	.textbox {
+    /* max-width: 460px; */
+    /* width: 30vw; */
+    right: 50px;
+    top: 600px;
+    position: absolute;
+    left: 50px;
+    width: unset;
+}
 
 }
