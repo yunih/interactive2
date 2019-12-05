@@ -45,18 +45,51 @@ p {
 	font-family: 'Open Sans', sans-serif;
 }
 
-@media only screen and (max-width: 600px) {
+/*@media only screen and (max-width: 600px) {
 	body {
 		background:pink;
 	}
 	.textbox {
-    /* max-width: 460px; */
-    /* width: 30vw; */
     right: 50px;
     top: 600px;
     position: absolute;
     left: 50px;
     width: unset;
 }
+}*/
 
+#mobile {
+	display: none;
+}
+
+
+@media only screen and (max-width: 700px) {
+	body {
+		background:black;
+	}
+
+	#mobile {
+		display: block;
+		color: white;
+		font-size: 30pt;
+		text-align: center;
+	}
+
+	.textbox {
+	display: none;
+	}
+
+	.frame {
+		display: none;
+	}
+
+	h1 {
+		display: none;
+	}
+
+	a {
+		display: none;
+	}
+
+	#rene {display: none;}
 }

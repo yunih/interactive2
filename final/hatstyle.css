@@ -61,12 +61,13 @@ a {
 #face {
 	position: absolute;
 	top:0;
-	left:700px;
+	left:50vw;
 	z-index:1000;
 	transition: left 1000ms ease;
 }
 #face.slide {
 	left:0;
+	animation: none;
 }
 
 .textbox {
@@ -96,9 +97,40 @@ p {
 }
 
 
+#mobile {
+	display: none;
+}
+
+
 @media only screen and (max-width: 600px) {
 	body {
-		background:pink;
+		background:black;
 	}
 
+	#mobile {
+		display: block;
+		color: white;
+		font-size: 30pt;
+		text-align: center;
+	}
+
+	.textbox {
+	display: none;
+	}
+
+	.frame {
+		display: none;
+	}
+
+	h1 {
+		display: none;
+	}
+
+	a {
+		display: none;
+	}
+
+
 }
+
+
