@@ -14,11 +14,13 @@ a {
 .textbox {
 /*	margin-left: 700px;*/
 	font-size: 12pt;
-	columns: 2;
-	max-width: 600px;
+	columns: 3;
   margin:0 auto;
   margin-left: auto;
   position: relative;
+  column-gap: 50px;
+  column-width: 200px;
+  max-width: 900px;
 }
 
 h1 {
@@ -145,6 +147,7 @@ p {
 		color: white;
 		font-size: 30pt;
 		text-align: center;
+		margin-top: 15vh;
 	}
 
 	.textbox {

@@ -73,6 +73,7 @@ a {
   margin:0 auto;
   margin-left: auto;
   position: relative;
+  column-gap: 50px;
 }
 
 
@@ -101,6 +102,7 @@ p {
 		color: white;
 		font-size: 30pt;
 		text-align: center;
+		margin-top: 15vh;
 	}
 
 	.textbox {
@@ -121,6 +123,8 @@ p {
 
 
 }
+
+
 
 
 /*.dropdown {
